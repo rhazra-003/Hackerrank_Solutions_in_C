@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{   
+    int n,a,b,c,d,e,sum;
+    scanf("%d",&n);
+    a=n%10;
+    b=((n%100)-a)/10;
+    c=((n%1000)-b)/100;
+    d=((n%10000)-c)/1000;
+    e=((n%100000)-d)/10000;
+    sum=a+b+c+d+e;
+    printf("%d",sum);
+    return 0;
+}
