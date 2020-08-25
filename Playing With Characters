@@ -2,7 +2,8 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
+int main() 
+{
     char ch;
     char s[20], sen[100];
     scanf("%c", &ch);
